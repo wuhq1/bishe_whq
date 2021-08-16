@@ -1,0 +1,493 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#上饶市 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#上饶市">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#江西省"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#临川 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#临川">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#抚州市"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#为害分布 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#为害分布">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病虫草害及防治"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#主要价值 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#主要价值">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#九江市 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#九江市">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#江西省"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#人物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#人物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#其他栽培地区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#其他栽培地区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#地区"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#江南栽培地区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#农作物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#农作物"/>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#农药 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#农药">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病虫草害及防治"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#区域市场价值 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#区域市场价值">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#主要价值"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#危害方式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#危害方式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻虫害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#危害特征 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#危害特征">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病虫草害及防治"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#发生规律 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#发生规律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻草害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#发病条件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#发病条件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#发育期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#发育期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻虫害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#品种 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#品种">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#地区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#地区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#害虫类型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#害虫类型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻虫害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#常规品种 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#常规品种">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#粳稻亚种"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#杂交品种"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#形态特征 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#形态特征">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻草害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#抚州市 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#抚州市">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#江西省"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#政策相关 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#政策相关">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#时间 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#时间">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#杂交品种 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#杂交品种">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#粳稻亚种"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#谷类作物"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻基因组 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻基因组">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻性状 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻性状">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻栽培管理 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻栽培管理">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻生育期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻生育期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病害 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病害">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病虫草害及防治"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病虫草害及防治 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病虫草害及防治">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻草害 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻草害">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病虫草害及防治"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻虫害 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻虫害">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病虫草害及防治"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#江南栽培地区 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#江南栽培地区">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#地区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#江西省 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#江西省">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#江南栽培地区"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#生长环境 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#生长环境">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#病原 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#病原">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#病害类型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#病害类型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#籼稻亚种 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#籼稻亚种">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#品种"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#粳稻亚种"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#粮食作物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#粮食作物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#农作物"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#粳稻亚种 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#粳稻亚种">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#品种"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#经济价值 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#经济价值">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#主要价值"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#草害类型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#草害类型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻草害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#营养价值 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#营养价值">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#主要价值"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#薯类作物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#薯类作物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#粮食作物"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#谷类作物"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#虫害特征 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#虫害特征">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻虫害"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#谷类作物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#谷类作物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#粮食作物"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#防治方法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#防治方法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病虫草害及防治"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#上饶市"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#九江市"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#抚州市"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#为害分布"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#农药"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#危害特征"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病害"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻草害"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻虫害"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#防治方法"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#主要价值"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#人物"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#品种"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#地区"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#政策相关"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#时间"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻基因组"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻性状"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻栽培管理"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻生育期"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#水稻病虫草害及防治"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#生长环境"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#区域市场价值"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#经济价值"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#营养价值"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#危害方式"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#发育期"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#害虫类型"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#虫害特征"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#发生规律"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#形态特征"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#草害类型"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#发病条件"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#病原"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/christiana/ontologies/2021/7/untitled-ontology-5#病害类型"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
